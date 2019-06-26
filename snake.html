@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake</title>
+    <style>
+        div {
+            position: absolute;
+            top: 120px;
+            left: 1300px;
+            border: 1px;
+            background-color: bisque;
+            padding: 3px;
+            height: 140px;
+        }
+        img {
+            height: 400px;
+            width: 600px;
+        }
+
+        canvas {
+            position: absolute;
+            left: 660px;
+        }
+
+        p {
+            font-size: 24px;
+            color: red;
+        }
+
+        p#ketqua {
+            color: blue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <p>Điểm số</p>
+    <p id="diem"></p>
+</div>
+<center>
+    <h1>Snake</h1>
+<!--    <img src="co.jpg">-->
+    <canvas id="myCanvas" height="400" width="600" style="border: 1px solid"></canvas>
+</center>
+<script src="snake1.js"></script>
+</body>
+</html>
